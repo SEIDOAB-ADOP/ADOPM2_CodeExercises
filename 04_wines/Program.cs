@@ -1,4 +1,6 @@
-﻿namespace _04_wines;
+﻿using Helpers;
+
+namespace _04_wines;
 
 class Program
 {

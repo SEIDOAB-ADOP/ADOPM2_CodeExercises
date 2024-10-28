@@ -1,5 +1,6 @@
 ﻿using System.Xml.Linq;
 using Helpers;
+
 namespace _05_Wines_Interfaces;
 
 class Program
@@ -12,6 +13,10 @@ class Program
         WineCellar wineCellar = new WineCellar("Martin's cellar");
 
         #region Add wines to the winecellar
+
+        var w = new csWine();
+        w.Seed(rnd);
+
         #endregion
 
         Console.WriteLine($"\nWinecellar: {wineCellar.Name}");
@@ -20,7 +25,7 @@ class Program
         Console.WriteLine($"Value of winecellar: {wineCellar.Value:N2} Sek");
 
         var hilo = wineCellar.WineHiLoCost();
-        Console.WriteLine($"\nMost expensive wine:\n{hilo.hicost}");
+        Console.WriteLine($"\nMost expensive wine:\n{hilo}");
         Console.WriteLine($"Least expensive wine:\n{hilo.locost}");
     }
 }

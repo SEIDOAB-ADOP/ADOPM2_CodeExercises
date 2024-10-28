@@ -9,6 +9,9 @@ namespace _05_Wines_Interfaces
 
     public interface IWine
 	{
+        /// <summary>
+        /// Name of the wine
+        /// </summary>
         public string Name { get; set; }
 
         public enCountry Country { get; set; }
@@ -17,6 +20,7 @@ namespace _05_Wines_Interfaces
 
         public decimal Price { get; set; }
 
+        //unnecessary
         public string ToString();
 
         public IWine Seed(csSeedGenerator rnd);
