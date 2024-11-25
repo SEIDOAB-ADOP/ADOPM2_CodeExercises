@@ -1,38 +1,19 @@
-﻿using Seido.Utilities.SeedGenerator;
+﻿using Microsoft.AspNetCore.Mvc.Diagnostics;
+using Seido.Utilities.SeedGenerator;
+using _00_Persons.Models;
 
 namespace _00_Persons;
-
-public class Person 
-{
-    public string FirstName { get; init; }
-    public string LastName { get; init; }
-
-    public DateTime BirthDay { get; init; }
-
-    public TimeSpan Age => DateTime.Now - BirthDay;
-
-
-    public override string ToString() => $"{FirstName} {LastName} was born on {BirthDay:D} and is now {Age.Days} days old.";
-
-    public Person()
-    {
-        var rnd = new Random();
-        var fnames = "Idefix, Obelix, Asterix, Trubadix".Split(", ");
-        var lnames = "Jetsson, FlintStone, Simson".Split(", ");;
-
-        this.FirstName = fnames[rnd.Next(fnames.Length)];
-        this.LastName = lnames[rnd.Next(lnames.Length)];
-
-        this.BirthDay = new DateTime(rnd.Next(1970, 2020), rnd.Next(1,13), rnd.Next(1,29));
-    }
-}
-
-
 class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, 01_Friends!");
+
+        var p3 = new Person() { LastName = "Lenart", BirthDay = new DateTime(1964,03,25) };
+        var p4 = new Person() { LastName = "Lenart", BirthDay = new DateTime(1964,03,25) };
+        System.Console.WriteLine(p3.Equals(p4));
+
+
 
         List<Person> friends = new List<Person>();
 
@@ -41,11 +22,14 @@ class Program
             friends.Add(new Person());
         }
 
+        friends.Sort();
+       
+
         Console.WriteLine();
         Console.WriteLine(friends.Count);
         foreach (var item in friends)
         {
-            System.Console.WriteLine(item);
+            System.Console.WriteLine(item.ToString());
         }
     }
 }
