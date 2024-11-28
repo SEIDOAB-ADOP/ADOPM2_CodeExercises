@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Cars", "01_Cars\01_Cars.csproj", "{3A2DCD49-6674-4AC5-9557-714898D3A317}"
 EndProject
@@ -26,6 +25,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_DeepCopy", "10_DeepCopy\10_DeepCopy.csproj", "{C6096EFB-754F-41B9-961D-C76656A5D498}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_Persons", "00_Persons\00_Persons.csproj", "{F944CD50-695C-4052-AF0A-894DA0043A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_interfaces", "11_interfaces\11_interfaces.csproj", "{BE65B25E-154C-4AA0-A849-3D6B25252000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,13 +82,15 @@ Global
 		{F944CD50-695C-4052-AF0A-894DA0043A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F944CD50-695C-4052-AF0A-894DA0043A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F944CD50-695C-4052-AF0A-894DA0043A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE65B25E-154C-4AA0-A849-3D6B25252000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE65B25E-154C-4AA0-A849-3D6B25252000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE65B25E-154C-4AA0-A849-3D6B25252000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE65B25E-154C-4AA0-A849-3D6B25252000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45C267FC-7DE6-41F8-8972-FC1AA888EC8C}
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
