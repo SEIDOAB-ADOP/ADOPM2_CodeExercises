@@ -4,11 +4,11 @@ using Seido.Utilities.SeedGenerator;
 Console.WriteLine("Hello, World!");
 var rnd = new SeedGenerator();
 
-IPerson p = new PersonAsClass().Seed(rnd);
-//IPerson p = new PersonAsRecord().Seed(rnd); 
+//IPerson p = new PersonAsClass().Seed(rnd);
+IPerson p = new PersonAsRecord().Seed(rnd); 
 Console.WriteLine(p);
 
-var c = new CarAsClass().Seed(rnd);
+ICar c = new CarAsClass().Seed(rnd);
 //var c = new CarAsRecord().Seed(rnd); 
 Console.WriteLine(c);
 
