@@ -14,7 +14,8 @@ public enum PlayingCardValue { Two = 2, Three, Four, Five, Six, Seven, Eight, Ni
 /* Exercises
 1. Create a tuple pearl1 which is Black, Round, Saltwater
 2. Create a tuple pearl2 which is White, DropShaped, Freashwater
-3. Use tuple syntax to test if pearl1 is equal to pearl2
+3. test if pearl1 is equal to pearl2
+3.a Use tuple syntax to test if pearl2 is a Pink, Round, Saltwater
 
 4. Modify pearl1 and pearl2 tuple creatation so the tuple items are no longer calles Item1, Item2, Item3 but
    Color, Shape and Type
