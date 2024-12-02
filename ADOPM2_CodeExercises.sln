@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_records", "12_records\12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_pattern_matching", "13_pattern_matching\13_pattern_matching.csproj", "{5F74DE70-F918-469A-A316-9949D4BB7502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_tuples", "14_tuples\14_tuples.csproj", "{12431875-E1A1-4CC8-9C32-3A95AC1FBCE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +100,10 @@ Global
 		{5F74DE70-F918-469A-A316-9949D4BB7502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F74DE70-F918-469A-A316-9949D4BB7502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F74DE70-F918-469A-A316-9949D4BB7502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12431875-E1A1-4CC8-9C32-3A95AC1FBCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12431875-E1A1-4CC8-9C32-3A95AC1FBCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12431875-E1A1-4CC8-9C32-3A95AC1FBCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12431875-E1A1-4CC8-9C32-3A95AC1FBCE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
