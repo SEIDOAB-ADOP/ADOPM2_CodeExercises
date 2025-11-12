@@ -1,6 +1,4 @@
-﻿
-
-
+﻿System.Console.WriteLine("Hello, Tuples!");
 
 
 public enum PearlColor { Black, White, Pink }
