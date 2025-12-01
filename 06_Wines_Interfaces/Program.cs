@@ -14,9 +14,12 @@ class Program
 
         #region Add wines to the winecellar
 
-        IWine w = new WineAsClass();
-        w.Seed(rnd);
-
+        for (int i = 0; i < 5; i++)
+        {
+            wineCellar.Wines.Add(new WineAsClass().Seed(rnd));
+            wineCellar.Wines.Add(new WineAsStruct().Seed(rnd));
+            wineCellar.Wines.Add(new WineAsRecord().Seed(rnd));
+        }
         #endregion
 
         Console.WriteLine($"\nWinecellar: {wineCellar.Name}");
