@@ -28,5 +28,9 @@ namespace _05_Wines_Interfaces
     }
     */
 
+    /*
+    public record WineAsRecord(...) : IWine
+    */
+
 }
 

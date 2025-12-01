@@ -19,6 +19,8 @@ namespace _05_Wines_Interfaces
         public GrapeType GrapeType { get; set; }
 
         public decimal Price { get; set; }
+
+        public IWine Seed(SeedGenerator rnd);
     }
 }
 
