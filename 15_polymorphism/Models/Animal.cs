@@ -33,4 +33,13 @@ public class Animal: ISeed<Animal>
 	}
 }
 
+public class NordicAnimal: Animal, ISeed<NordicAnimal>
+{
+    public new NordicAnimal Seed(SeedGenerator _seeder)
+	{
+		base.Seed(_seeder);
+		return this;
+	}
+}
+
 
